@@ -1,0 +1,185 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: 'white';
+  z-index: 2;
+}
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.nav-buttons li {
+  display: block;
+  padding: 0 2%;
+}
+
+.nav-buttons a:hover {
+  color: #E60029;
+  font-size: 120%;
+}
+
+.nav-buttons img {
+  width: auto;
+  max-height: 15vh;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.anchor {
+    display: block;
+    padding-top: 15vh; 
+    visibility: hidden;
+}
+
+.marketing-slider h4{
+  display: inline-block;
+  background-color:#FFD00F;
+  color: white;
+  padding: 5px 10px;
+  margin-top:5%;
+  margin-left:5%;
+  border-radius: 5px;
+}
+.slide1 {
+  background-image: url("http://www.sundance.org/comfy/cms/files/files/000/009/669/web_optimized/2017-06-14-sff17-economic-impact-ref.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.slide2 {
+  background-image: url("https://www.thelorenzo.com/gridmedia/images/amenities_08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.slide3 {
+  background-image: url("http://media.gettyimages.com/photos/actors-kelli-mayo-adam-long-ben-winchell-max-burkholder-odessa-young-picture-id632240220");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+button.slick-prev.slick-arrow {
+    border-left: solid white 2px;
+    border-bottom: solid white 2px;
+    margin-left: 5%;
+    z-index: 1;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+.slick-prev:before {
+    content: '';
+}
+button.slick-next.slick-arrow {
+    border-left: solid white 2px;
+    border-bottom: solid white 2px;
+    margin-right: 5%;
+    z-index: 1;
+    -ms-transform: rotate(225deg); /* IE 9 */
+    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+    transform: rotate(225deg);
+}
+.slick-next:before {
+    content: '';
+}
+.artists-image img{
+  float: right;
+}
+.artist-container p{
+  padding: 2%;
+}
+
+
+.film-header-wrapper {
+  background-color: #FFD00F;
+}
+.film-header-wrapper h2 {
+  color: black;
+  padding: 1% 5%;
+  
+}
+.film-header-wrapper h4 {
+  padding-left: 5%;
+  padding-bottom: 1%;
+  color: white;
+}
+.tiles-container {
+  display: flex;
+  justify-content: space-between; 
+}
+.tile {
+  max-width: 30vw  
+}
+.tile-image {
+  width: 100%;
+  height: auto;
+}
+.tile p {
+  display: block;
+  box-sizing: border-box;
+  padding: 50% 5%;
+  margin: 0;
+  background-color: #FFD00F;
+  overflow: auto;
+}
+.location-container {
+  border: 2px solid black;
+}
+.location-container h2 {
+  padding: 2%;
+  margin-left: 40px;
+}
+.tab-panel {
+  display: none;
+  padding: 5%;
+  border: 2px solid black;
+  margin: 40px;
+  
+}
+.tab-panel.active {
+  display: block;
+  background-color: #FFD00F;
+  margin-top: -18px;
+}
+.tab-list li{
+ display: inline-block;
+ list-style-type: none;
+ background-color: white;
+ padding: 5px 10px;
+ border-top: solid 2px black;
+ border-right: solid 2px black;
+ border-left: solid 2px black;
+ z-index: 1;
+}
+.tab-list li.active {
+  background-color: #FFD00F;
+  color: 'white';
+}
+
+@media screen and (max-width: 480px) {
+    .nav-buttons {
+        flex-direction:column;
+        align-items: center;
+    }
+    .marketing-slider {
+      display: none;
+    }
+    .tiles-container {
+       flex-direction:column;
+       align-items: center;
+     }
+     .tile {
+  max-width: 80vw  
+}
+.artist-container img{
+  display:none;
+}
+
