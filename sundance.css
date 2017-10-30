@@ -24,7 +24,26 @@
   font-size: 120%;
 }
 
-.nav-buttons img {
+.nav-container img {
+  width: auto;
+  max-height: 15vh;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li {
+  display: block;
+  padding: 0 2%;
+}
+
+.navbar a:hover {
+  color: #E60029 !important;
+  font-size: 120%;
+}
+
+.navbar img {
   width: auto;
   max-height: 15vh;
 }
