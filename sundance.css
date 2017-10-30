@@ -1,3 +1,6 @@
+.site-gutters {
+  margin: 2%;
+}
 .nav-container {
   position: fixed;
   top: 0;
@@ -53,7 +56,7 @@ li a {
 }
 .anchor {
     display: block;
-    padding-top: 15vh; 
+    padding-top: 17vh; 
     visibility: hidden;
 }
 
@@ -149,18 +152,37 @@ button.slick-next.slick-arrow {
   background-color: #FFD00F;
   overflow: auto;
 }
-.location-container {
-  border: 2px solid black;
+
+.artists-headers {
+  padding-left: 5%;
+  background-color: #FFD00F;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.artist-container {
+  margin-left: 5%;
 }
 .location-container h2 {
-  padding: 2%;
-  margin-left: 40px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  background-color: #FFD00F;
+  margin-bottom: 5%;
+  
+}
+ul.tab-list {
+    margin-left: 5%;
+}
+ul.tab-list a:hover {
+  text-decoration: none;
+  color: #E60029;
+  font-size: 120%;
 }
 .tab-panel {
   display: none;
   padding: 5%;
   border: 2px solid black;
-  margin: 40px;
+  margin: 5%;
   
 }
 .tab-panel.active {
